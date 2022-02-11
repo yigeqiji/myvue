@@ -1,0 +1,37 @@
+/*==================
+* common
+==================*/
+$titleColor:rgba(0,204,255,1);
+@function alphaColor-1($alpha){
+  @return rgba(0,204,255,$alpha)
+}
+
+/*==================
+* record
+==================*/
+
+$itemNameColor: #57dcff;
+$inputColor: rgba(34, 44, 99,1);
+$inputBorderColor:rgba(64,158,255,1);
+$selectedBgColor:rgba(50,60,119,1);
+$selectedTextColor:rgba(64,158,255,1);
+$buttonBgColor:rgba(34, 44, 99,1);
+$pageSelectColor:#409eff;
+
+/*==================
+* sass colors
+==================*/
+
+
+.bg-mInput {
+  background:$inputColor !important;
+}
+.bg-mSelected {
+  background:$inputColor !important;
+}
+.bg-m-positive{
+  background:rgba(170,234,195,1) !important;
+}
+.bg-m-negative{
+  background:rgba(248,43,75,0.5) !important;
+}

@@ -1,0 +1,49 @@
+/*==================
+* home page
+==================*/
+
+$leftWidth:76%;
+$rightWidth:100% - $leftWidth;
+$outerContainerPadding:1.7%;
+$homeContainerTopHeight:8%;
+
+%containerBg{
+  //background: rgba(3, 40, 85, 0.8);
+  background: rgba(23, 35, 53, 0.9);
+  //background-image: linear-gradient(to bottom right, rgba(23, 35, 53, 1) , rgba(23, 35, 53, 0.5),rgba(23, 35, 53, 1));
+  border-radius: 0.8rem;
+  box-shadow: 0 0 1rem #333;
+
+}
+
+%container {
+  height:100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+%title {
+  width: 100%;
+  height: $homeContainerTopHeight;
+  display: flex;
+  align-items: center;
+  position:relative;
+}
+%content{
+  width:100%;
+  height:100% - $homeContainerTopHeight;
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: space-between;
+  position: relative;
+}
+%title-tab{
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+

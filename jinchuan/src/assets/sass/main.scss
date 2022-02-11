@@ -1,0 +1,19 @@
+/* ==================================
+ * Base
+ * ================================== */
+@import "base/reset";
+@import "base/colors";
+@import "base/common_class";
+
+/* ==================================
+ * helpers
+ * ================================== */
+@import "helpers/extends";
+
+/*==================
+* pages
+==================*/
+
+@import "pages/common";
+@import "pages/home";
+@import "pages/record";
