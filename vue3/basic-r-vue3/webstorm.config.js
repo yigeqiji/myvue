@@ -5,7 +5,7 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.vue', '.json'],
         alias: {
-            '@/': path.resolve('src'),
+            '@': path.resolve('src'),
         }
     }
 }
