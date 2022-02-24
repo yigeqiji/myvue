@@ -12,11 +12,16 @@ export default {
             profile:{
                 id:'',
                 avatar:'',
-                nickname:'',
+                nickname:'默认',
                 account:'',
                 mobile:'',
                 token:''
             }
+        }
+    },
+    mutations:{
+        updateProfile(state,payload){
+            state.profile=payload
         }
     }
 }
