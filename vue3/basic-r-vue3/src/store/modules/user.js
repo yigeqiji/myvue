@@ -9,18 +9,18 @@ export default {
     state(){
         return {
             //用户信息
-            profile:{
-                id:'',
-                avatar:'',
-                nickname:'默认',
-                account:'',
-                mobile:'',
-                token:''
-            }
+            profile: {
+                id: '',
+                avatar: '',
+                nickname: '默认',
+                account: '',
+                mobile: '',
+                token: ''
+            },
         }
     },
     mutations:{
-        updateProfile(state,payload){
+        updateProfile(state,payload={}){
             state.profile=payload
         }
     }

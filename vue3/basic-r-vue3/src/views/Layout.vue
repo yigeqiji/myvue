@@ -1,5 +1,19 @@
 <template>
-  <img src="@/assets/logo.png" alt="">
+  <!-- 顶部通栏 -->
+  <nav>顶部通栏</nav>
+
+  <!-- 头部组件 -->
+  <header>头部组件</header>
+
+  <!-- 内容容器 -->
+  <div class="main">
+    <router-view/>
+  </div>
+  <!-- 内容容器 -->
+
+  <!-- 底部组件 -->
+  <footer>底部组件</footer>
+
 </template>
 
 <script>
