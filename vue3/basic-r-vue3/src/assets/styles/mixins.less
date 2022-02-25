@@ -1,0 +1,13 @@
+/*==================
+* mixins公用样式
+==================*/
+
+//鼠标移过元素--动画效果
+.elHoverMove(){
+  transition:all .5s;
+  &:hover{
+    transform: translate3d(0,-3px,0);
+    filter: drop-shadow(0 0 3px #000);
+    box-shadow:0 3px 8px rgba(0,0,0,0.2);
+  }
+}
