@@ -4,6 +4,15 @@
  * @QQ 1719945567
  * @Function
  */
+
+const emptyProfile={
+    id: '',
+    avatar: '',
+    nickname: '',
+    account: '',
+    mobile: '',
+    token: ''
+}
 export default {
     namespaced:true,
     state(){
@@ -13,14 +22,14 @@ export default {
                 id: '',
                 avatar: '',
                 nickname: '默认',
-                account: '',
+                account: '默认账户',
                 mobile: '',
-                token: ''
+                token: '111'
             },
         }
     },
     mutations:{
-        updateProfile(state,payload={}){
+        updateProfile(state,payload=emptyProfile){
             state.profile=payload
         }
     }

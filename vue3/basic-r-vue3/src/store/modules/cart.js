@@ -11,5 +11,10 @@ export default {
         return {
             list:[]
         }
+    },
+    mutations:{
+        updateList(state,payload){
+            state.list=payload
+        }
     }
 }

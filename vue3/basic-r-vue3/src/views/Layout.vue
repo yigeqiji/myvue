@@ -1,6 +1,8 @@
 <template>
   <!-- 顶部通栏 -->
-  <nav>顶部通栏</nav>
+  <nav>
+    <navbar/>
+  </nav>
 
   <!-- 头部组件 -->
   <header>头部组件</header>
@@ -18,8 +20,14 @@
 
 <script>
 
+import navbar from "@/components/navbar";
+
 export default {
-name: "Layout"
+name: "Layout",
+  components: {
+  navbar,
+  }
+
 }
 </script>
 
